@@ -137,6 +137,7 @@ section{
     color: var(--yellowish);
     background-color: transparent;
     border: 0.2rem solid var(--yellowish);
+    border-radius: 5px;
 }
 
 .btn i{
@@ -145,7 +146,7 @@ section{
 
 .btn:hover{
     color: var(--white);
-    background-color: var(--purple);
+    background-color: var(--light-blue);
     cursor: pointer;
 }
 
@@ -333,7 +334,8 @@ header #menu-btn:hover{
 
 .about .image img{
     width: 100%;
-    border: 1rem solid var(--yellowish);
+    border-radius: 5px;
+    border: 0.5rem solid var(--yellowish);
 }
 
 .about .content{
@@ -616,7 +618,7 @@ header #menu-btn:hover{
 }
 
 .service-item:hover{
-    background-color: var(--purple);
+    background-color: var(--light-blue);
 }
 
 .service-item i{
@@ -1072,6 +1074,7 @@ header #menu-btn:hover{
     padding: 1.5rem;
     margin: 0.5rem 0;
     background-color: #222;
+    border-radius: 5px;
 }
 
 .contact-form .box:focus{
